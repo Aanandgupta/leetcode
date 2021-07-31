@@ -19,8 +19,11 @@
 class Solution {
 public:
     vector<TreeNode*> generateTrees(int n) {
-        
-    }
+        return generateTrees(1, n);
+    }  
+
+
 };
+
 // @lc code=end
 
